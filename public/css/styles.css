@@ -1,0 +1,61 @@
+/*@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";*/
+
+body  {
+    height: 100%;
+
+  }
+
+
+#form1{
+    
+      
+        /* Full height */
+        height: 100%;
+      
+       
+      }
+
+*{
+    margin: 0px;
+ 
+    list-style: none;
+    text-decoration: none;
+  
+}
+/* Style the sidebar - fixed full height */
+
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+   
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+  
+  /* Style sidebar links */
+  .sidebar a {
+    padding: 6px 8px 6px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* Style links on mouse-over */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style the main content */
+  .w3-main{
+    height: 100%;
+    width: 100%;
+    background:url("img/fe.jpg") no repeat center center;
+    background-size: cover;
+    position: fixed;
+  
+  }
